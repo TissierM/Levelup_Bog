@@ -1,20 +1,19 @@
 body {
   text-align: center;
-  background-color: rgba(214, 148, 77);
+  background-color: rgba(141, 138, 143, 1);
 }
 
 .bar_menu{
 	display: flex;
+	/*position: fixed;*/
 	text-align: center;
-	background-color: rgba(227, 168, 132);
-    padding: 0px 30px;
+	background-color: rgba(143, 132, 148, 1);
+    /*padding: 0px 30px;*/
     justify-content:space-between;
     align-items: center;
     height: 70px;
 }
-.Google_menu{
-	text-align: left;
-}
+
 i{
 	width:20px;
 }
@@ -30,14 +29,12 @@ i{
 	justify-content:space-between;
 }
 
-.navbar_item{
-		padding: 0 20px;
-}
+
 
 .main_menu{
 
 	text-align: center;
-	background-color: rgba(242, 205, 165);
+	background-color: rgba(161, 159, 163, 1);
 	align-items: center;
 	padding: 10px;
   	margin-top: 20px;
@@ -56,6 +53,84 @@ i{
     height: 600px;
 
 }
+
 a{
 	text-decoration: none;  
 }
+
+.block_contenant{
+	display: flex;
+	align-items: center;
+}
+
+.text_information{
+	text-align: left;
+	align-items: left;
+}
+
+/*La Nav_Bar*/
+
+.liste_bar_menu{
+	width: 100%;
+	margin-right: 100px;
+	background-color: rgba(143, 132, 148, 1);
+	position: sticky;
+	top: 0px;
+}
+
+.liste_bar_menu ul {
+	list-style-type: none;
+}
+
+
+.liste_bar_menu ul::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.liste_bar_menu a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid transparent;
+	padding: 10px 0px;
+}
+
+.liste_bar_menu a:hover{
+	color: orange;
+	border-bottom: 2px solid gold;
+}
+
+.niveau2{
+	display: none;
+	background-color: rgba(143, 132, 148, 1);
+}
+
+.liste_bar_menu > ul li:hover .niveau2{
+	display:block;
+}
+
+.niveau2 li{
+	float:none;
+	width: 100%;
+	text-align: left;
+}
+
+.niveau2 a{
+	padding: 10px;
+	border-bottom: none;
+}
+
+.niveau2 a:hover{
+	border-bottom: none;
+	background-color: rgba(143, 132, 148, 1);
+}
+
+.niveau2 {
+	display: none;
+	position: absolute;
+	width: 20%;
+	z-index: 1000;
+}
+

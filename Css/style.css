@@ -3,6 +3,12 @@ body {
   background-color: rgba(141, 138, 143, 1);
 }
 
+.video{
+	display: flex;
+	text-align: center;
+    justify-content:space-between;
+    align-items: center;
+}
 .bar_menu{
 	display: flex;
 	/*position: fixed;*/
@@ -28,7 +34,6 @@ i{
   	align-items: center;
 	justify-content:space-between;
 }
-
 
 
 .main_menu{
@@ -134,3 +139,15 @@ a{
 	z-index: 1000;
 }
 
+.liste{
+	text-align: left;
+}
+
+.remerciement{
+	background-color: #847dad;
+	align-items: center;
+	padding: 10px;
+  	margin-top: 20px;
+	border-radius: 100px;
+	margin: 30px;
+}

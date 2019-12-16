@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: rgba(141, 138, 143, 1);
+  background-color: black;
 }
 
 .video{
@@ -17,7 +17,7 @@ body {
     /*padding: 0px 30px;*/
     justify-content:space-between;
     align-items: center;
-    height: 70px;
+    height: 100px;
 }
 
 i{
@@ -154,5 +154,5 @@ a{
 
 .text_information{
 	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 }

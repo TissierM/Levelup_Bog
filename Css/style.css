@@ -54,8 +54,8 @@ i{
 }
 
 #reseau_img {
-	width: 850px;
-    height: 600px;
+	width: 80%;
+    height: 80%;
 
 }
 
@@ -80,7 +80,7 @@ a{
 	margin-right: 100px;
 	background-color: rgba(143, 132, 148, 1);
 	position: sticky;
-	top: 0px;
+	top: 0%;
 }
 
 .liste_bar_menu ul {
@@ -98,13 +98,13 @@ a{
 	display: block;
 	text-decoration: none;
 	color: black;
-	border-bottom: 2px solid transparent;
-	padding: 10px 0px;
+	border-bottom: 2% solid transparent;
+	padding: 5%;
 }
 
 .liste_bar_menu a:hover{
 	color: orange;
-	border-bottom: 2px solid gold;
+	border-bottom: 2% solid gold;
 }
 
 .niveau2{
@@ -153,6 +153,7 @@ a{
 }
 
 .text_information{
-	margin-top: 20px;
-	margin-bottom: 60px;
+	margin-top: 5%;
+	margin-bottom: 10%;
 }
+

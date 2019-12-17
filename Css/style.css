@@ -3,21 +3,24 @@ body {
   background-color: #424731;
 }
 
-.video{
-	display: flex;
-	text-align: center;
-    justify-content:space-between;
-    align-items: center;
-}
-.bar_menu{
-	background-color: #909484;
-    /*padding: 0px 30px;*/
-    justify-content:space-between;
-    align-items: center;
-}
-
 i{
 	width:20px;
+}
+
+a{
+	text-decoration: none;  
+}
+
+/*La Nav_Bar*/
+.logo{
+	height: 16%;
+	width: 16%;
+}
+
+.bar_menu{
+	background-color: #909484;
+    justify-content:space-between;
+    align-items: center;
 }
 
 .introduction_bar_menu{
@@ -35,75 +38,6 @@ i{
 	position: sticky;
 	top: 0%;
 }
-.logo{
-	height: 16%;
-	width: 16%;
-}
-
-
-
-.video {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
-    height: 0;
-}
-.video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.main_menu{
-
-	text-align: center;
-	background-color: #E0DEE0;
-	align-items: center;
-	padding: 10px;
-  	margin-top: 20px;
-	border-radius: 100px;
-	margin: 30px;
-}
-
-.source{
-	background-color: #7699BB;
-	padding: 10px;
-  	margin-top: 20px;
-	border-radius: 100px;
-	margin: 30px;
-}
-
-.bar_2{
-	border: 5px solid #706f75;
-	background-color: white;
-    margin: 100px;
-}
-
-#reseau_img {
-	width: 80%;
-    height: 80%;
-
-}
-
-a{
-	text-decoration: none;  
-}
-
-.block_contenant{
-	display: flex;
-	align-items: center;
-}
-
-.text_information{
-	text-align: left;
-	align-items: left;
-}
-
-/*La Nav_Bar*/
-
-
 
 .liste_bar_menu ul {
 	list-style-type: none;
@@ -129,10 +63,6 @@ a{
 	border-bottom: 2% solid gold;
 }
 
-.niveau2{
-	display: none;
-	background-color: #909484;
-}
 
 .liste_bar_menu > ul li:hover .niveau2{
 	display:block;
@@ -156,6 +86,7 @@ a{
 
 .niveau2 {
 	display: none;
+	background-color: #909484;
 	position: absolute;
 	width: 20%;
 	z-index: 1000;
@@ -164,6 +95,66 @@ a{
 .liste{
 	text-align: left;
 }
+
+/*index */
+
+.video {
+	width: 100%;
+}
+
+iframe{
+    width: 60%;
+    height: 50vh;
+}
+
+/*bloc principal*/
+
+.main_menu{
+
+	text-align: center;
+	background-color: #E0DEE0;
+	align-items: center;
+	padding: 10px;
+  	margin-top: 20px;
+	border-radius: 100px;
+	margin: 30px;
+}
+
+.block_contenant{
+	display: flex;
+	align-items: center;
+}
+
+.text_information{
+	text-align: left;
+	align-items: left;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+
+/*source*/
+
+.source{
+	background-color: #7699BB;
+	padding: 10px;
+  	margin-top: 20px;
+	border-radius: 100px;
+	margin: 30px;
+}
+
+/*reseau*/
+
+#reseau_img {
+	width: 80%;
+    height: 80%;
+
+}
+
+
+
+
+/*remerciement*/
 
 .remerciement{
 	background-color: #847dad;
@@ -174,8 +165,4 @@ a{
 	margin: 30px;
 }
 
-.text_information{
-	margin-top: 5%;
-	margin-bottom: 10%;
-}
 

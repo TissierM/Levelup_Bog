@@ -7,13 +7,14 @@
   <title>Level Up du Code</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="../Css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Belgrano&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
   <div class="bar_menu">
     <div class="introduction_bar_menu">
-       <a href="../index.html"><img src="../view/logo.png" class="logo"></a>
+       <a href="../index.html"><img src="view/logo.png" class="logo"></a>
     </div>
     <div class="liste_bar_menu">
       <ul>
@@ -130,47 +131,61 @@
     </div>
   </div>
   <div class="main_menu">
-      <p class="work">EN COURS DE CONSTRUCTION</p>
+       <p class="work"><font color="red" face="verdana">EN COURS DE CONSTRUCTION</font></p>
       <h1>le CSS</h1>
   </div>
   <div class="main_menu">
-      <h2>Qu'est ce que le CSS?</h2>
-    <div class="text_information">
-      <p>Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML. </p>
+    <div class="bloc_contenant_text">
+        <h2>Qu'est ce que le CSS?</h2>
+      <div class="text_information">
+        <p>Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML. </p>
+      </div>
+        <h2>Que faire avec ?</h2>
+        <div class="text_information">
+          <p>Il y a tellement de possibilités avec le CSS que je préfère vous proposer ce <a href="https://www.smashingmagazine.com/2007/01/53-css-techniques-you-couldnt-live-without/">LIEN</a> où on vous montre une partie de ces possibilités avec quelques explications.</p>
+        </div>
+          <h2>Quels sont ses avantages? ses Inconvéniens?</h2>
+        <div class="text_information">
+          <p>Voici les avantages :</p>
+          <ul>
+            <li>Les pages web se chargent plus rapidement et utilisent moins de bande passante</li>
+            <li>Le CSS est compatible avec tous les navigateurs</li>
+            <li>Le CSS peut etre utilisé pour créer des pages web faciles a imprimer
+            </li>
+            <li>Le CSS permet à l'utilisateur de personnaliser une page web</li>
+            <li>Le CSS facilite le positionnement dans les moteurs de recherche</li>
+            <li>Le CSS facilite la portabilité du contenu</li>
+          </ul>
+          <p>Et voici les inconvénients :</p>
+          <ul>
+            <li>En construction</li>
+          </ul>
+        </div>
+          <h2>Son Fonctionnement?</h2>
+        <div class="text_information">
+          <p>En construction</p>
+        </div>
+          <h2>Au final, pourquoi utiliser ce langage?</h2>
+        <div class="text_information">
+          <p>En construction</p>
+        </div>
+          <h2>Installer CSS?</h2>
+        <div class="text_information">
+          <p>En construction</p>
+        </div>
+      </div>
+  </div>
+  <div class="main_menu">
+    <div class="bloc_contenant_text">
+      <div class="text_information">
+        <p>Il y a plusieurs moyens d'appliquer du CSS sur des morceaux de HTML. Tout dépends de ce que voulez modifier et avec quelle étendue. Voulez-vous seulement modifier un mot dans un paragraphe? Le paragraphe? Tout les paragraphes de tout votre site? </p>
+        <p>Pour cela, on revient à notre histoire de balises (<a href="../secondary_link/HTML_page.html">retournez voir la page HTML s'il le faut</a>) telles que <font color="red" face="verdana">DIV</font>, <font color="red" face="verdana">P</font>, <font color="red" face="verdana">Ul</font>, etc.</p>
+        <p>Déjà, nous allons explorer les possibilités du CSS avec quelque chose de très simple : <font color="red" face="verdana">modifier le texte d'une page</font>.<br>Prenons un exemple : la police de base de votre site ne vous plait pas et vous voulez en changer. Déjà, iol vous faut une page css pour contenir toutes vos données css. Vous créez donc une page style.css et dans votre page.html vous l'appeler en ajoutant dans le head ; <font color="red" face="verdana">< link rel="stylesheet" href="style.css" ></font>. Voila, vos deux pages sont liées entre elles et vous pouvez désormais appliquer le css sur le html que vous avez créé. Maintenant revenons à cette police qui vous déplait.<br>Disons qu'il s'agisse de la police de toutes vos pages HTML. Peut importe la page, elle ne vous plait pas et vous en voulez une autre, la même présente sur <font color="red" face="verdana">toutes vos pages</font>.<br>Pour cela, allez sur votre page .css et taper <font color="red" face="verdana">p { }</font>. Cette commande pour premet de selectionner la <font color="red" face="verdana">totalité</font> des balises < p > sur votre site internet.<br>Mais en faite vous voulez uniquement modifier la police des balises < p > possédans la <font color="red" face="verdana">class =</font>texte ?<br> Dans ce cas, allez sur votre page .css et taper <font color="red" face="verdana">.texte{ }</font> afin de selectionner uniquement les balises ayant cette class.<br>Quoi? vous avez encore changer d'avis et vous ne voulez changer que la police des balises ayant <font color="red" face="verdana">id="exception"</font>?<br>Et bien, cette fois pour modifier uniquement la balise avec cette id vous devez entrez dans la page .css <font color="red" face="verdana">#exception{ }</font>. Et maintenant vous ne voulez que seul un morceau de texte, comme juste un <font color="red" face="verdana">mot</font> soit selectionné? Pour cela vous pouvez utiliser < span > ou bien < font > pour le changer directement sur votre page html avec du code CSS.<br>Maintenant que vous avez enfin réussit à selectionner ce que vous vouliez, on peut passer à la suite</p>
+        <p>Avant de changer de police, vous devez savoir que de base, les ordinateurs ne supportent pas tout les types de polices. Ils ne peuvent en décrypter que certaines telles que Times New Roman, serif, sans-serif ou encore monospace. Donc vous devez soit vous plier à la sainte volonté des machines, ou les obligez à appliquer la police que vous voulez. Pour cela, allez sur <a href="https://fonts.google.com/">Google Font</a>. Sur ce site vous pouver choisir une police, et récupérer un link à mettre dans le head de vos pages pour que les ordinateurs ailles chercher la source de cette police, ainsi qu'un morceau de code à placer dans votre page .css.<br> Ce code ressemble à ceci : <font color="red" face="verdana">font-family: 'Belgrano';</font>. Il est composé de deux parties : font-family sert à indiquer que vous voulez appliquer une police à la balise entrée plus haut, et belgrano est le nom de la police que vous voulez.</p>
+        <p>Voila comment fonctionne le CSS : vous appelez le morceau de code que vous voulez modifier et vous lui appliquer la modification que vous souhaitez.</p>
+        <p>Voyons ce que l'on peut faire d'autre avec ce texte... <br>Vous pouvez changer sa couleur par exemple avec la commande <font color="red" face="verdana">color: red;</font>.<br>Et si le texte était en gras avec la commande <span class="bold">font-weight:bold</span> ou encore avec <span class="bolder">font-weight:bolder</span>?</p>
+      </div>
     </div>
-      <h2>Que faire avec ?</h2>
-      <div class="text_information">
-        <p>Il y a tellement de possibilités avec le CSS que je préfère vous proposer ce <a href="https://www.smashingmagazine.com/2007/01/53-css-techniques-you-couldnt-live-without/">LIEN</a> où on vous montre une partie de ces possibilités avec quelques explications.</p>
-      </div>
-        <h2>Quels sont ses avantages? ses Inconvéniens?</h2>
-      <div class="text_information">
-        <p>Voici les avantages :</p>
-        <ul>
-          <li>Les pages web se chargent plus rapidement et utilisent moins de bande passante</li>
-          <li>Le CSS est compatible avec tous les navigateurs</li>
-          <li>Le CSS peut etre utilisé pour créer des pages web faciles a imprimer
-          </li>
-          <li>Le CSS permet à l'utilisateur de personnaliser une page web</li>
-          <li>Le CSS facilite le positionnement dans les moteurs de recherche</li>
-          <li>Le CSS facilite la portabilité du contenu</li>
-        </ul>
-        <p>Et voici les inconvénients :</p>
-        <ul>
-          <li>En construction</li>
-        </ul>
-      </div>
-        <h2>Son Fonctionnement?</h2>
-      <div class="text_information">
-        <p>En construction</p>
-      </div>
-        <h2>Au final, pourquoi utiliser ce langage?</h2>
-      <div class="text_information">
-        <p>En construction</p>
-      </div>
-        <h2>Installer CSS?</h2>
-      <div class="text_information">
-        <p>En construction</p>
-      </div>
   </div>
   <div class="source">
         <h3>Voici les sources sur lesquelles je me suis basée pour écrire cet article : </h3>

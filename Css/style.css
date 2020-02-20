@@ -11,6 +11,10 @@ a{
 	text-decoration: none;  
 }
 
+p{
+	font-family: 'Belgrano', serif;
+}
+
 /*La Nav_Bar*/
 .logo{
 	height: 16%;
@@ -130,8 +134,13 @@ iframe{
 	align-items: left;
 	margin-top: 2%;
 	margin-bottom: 3%;
+	margin-left: 10%
+	margin-right: 10%;
 }
 
+.bloc_contenant_text{
+	padding: 5%;
+}
 
 /*source*/
 
@@ -166,3 +175,11 @@ iframe{
 }
 
 
+/*page CSS*/
+
+.bold{
+	font-weight:bold;
+}
+.bolder{
+	font-weight:bolder;
+}

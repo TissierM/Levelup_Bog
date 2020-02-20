@@ -7,13 +7,14 @@
   <title>Level Up du Code</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="../Css/style.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Belgrano&display=swap" rel="stylesheet">
+  
 </head>
 
 <body>
     <div class="bar_menu">
     <div class="introduction_bar_menu">
-       <a href="../index.html"><img src="../view/logo.png" class="logo"></a>
+       <a href="../index.html"><img src="view/logo.png" class="logo"></a>
     </div>
     <div class="liste_bar_menu">
       <ul>
@@ -130,37 +131,39 @@
     </div>
   </div>
   <div class="main_menu">
-    <p class="work">EN COURS DE CONSTRUCTION</p>
+    <p class="work"><font color="red" face="verdana">EN COURS DE CONSTRUCTION</font></p>
     <h1>le HTML</h1>
     <h2>Qu'est ce que le HTML?</h2>
-    <div class="text_information">
-      <p>L’HyperText Markup Language, généralement abrégé HTML, est le langage de balisage conçu pour représenter les pages web. C'est le squellette de votre site internet. Il vous permet de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des videos, des formulaires de saisie et des programmes informatiques. Il est souvent utilisé avec le langage de programmation JavaScript et des feuilles de style en cascade (CSS).</p>
-      <p>En fait, un code HTML seul vous montre une page internet très triste.</p>
-    </div>
-    <h2>Que faire avec ?</h2>
-    <div class="text_information">
-      <p>Il s'agit du langage de base pour créer un site internet. Le HTML sert a structurer votre contenu.</p>
-    </div>
-    <h2>Quels sont ses avantages? ses Inconvéniens?</h2>
-    <div class="text_information">
-      <h3>les Avantages :</h3>
-      <p>Le HTML facilite la réalisation de liens entre un serveur et un autre. On peut l'écrir avec un simple éditeur (même bloc note permet d'écrire du HTML).</p>
-      <h3>les Inconvéniens :</h3>
-      <p>Mais il peut être incomplet pour réaliser certaines actions et souvant le mêlange entre contenu et présentation peut être gênant.</p>
-    </div>
-    <h2>Au final, pourquoi utiliser ce langage?</h2>
-    <div class="text_information">
-      <p>Le HTML présente à l'ordinateur une description du contenu d'un document que l'ordinateur doit interpréter. Pour cela, il utilise des balises pour marquer les différents composants de la page.</p>
-    </div>
-    <h2>Installer HTML?</h2>
-    <div class="text_information">
-      <p>On n'a pas besoin de logiciel précis pour utiliser le HTML, créer une page .html suffit. Il faut seulement un logiciel avec lequel on peut lire et modifier le code.</p>
-      <p>Tel que : 
-        <ul>
-         <li>Sublime Text</li>
-          <li>Notepad</li>
-        </ul>
-      </p>
+    <div class="bloc_contenant_text">
+      <div class="text_information">
+        <p>L’HyperText Markup Language, généralement abrégé HTML, est le langage de balisage conçu pour représenter les pages web. C'est le squellette de votre site internet. Il vous permet de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des videos, des formulaires de saisie et des programmes informatiques. Il est souvent utilisé avec le langage de programmation JavaScript et des feuilles de style en cascade (CSS).</p>
+        <p>En fait, un code HTML seul vous montre une page internet très triste.</p>
+      </div>
+      <h2>Que faire avec ?</h2>
+      <div class="text_information">
+        <p>Il s'agit du langage de base pour créer un site internet. Le HTML sert a structurer votre contenu.</p>
+      </div>
+      <h2>Quels sont ses avantages? ses Inconvéniens?</h2>
+      <div class="text_information">
+        <h3>les Avantages :</h3>
+        <p>Le HTML facilite la réalisation de liens entre un serveur et un autre. On peut l'écrir avec un simple éditeur (même bloc note permet d'écrire du HTML).</p>
+        <h3>les Inconvéniens :</h3>
+        <p>Mais il peut être incomplet pour réaliser certaines actions et souvant le mêlange entre contenu et présentation peut être gênant.</p>
+      </div>
+      <h2>Au final, pourquoi utiliser ce langage?</h2>
+      <div class="text_information">
+        <p>Le HTML présente à l'ordinateur une description du contenu d'un document que l'ordinateur doit interpréter. Pour cela, il utilise des balises pour marquer les différents composants de la page.</p>
+      </div>
+      <h2>Installer HTML?</h2>
+      <div class="text_information">
+        <p>On n'a pas besoin de logiciel précis pour utiliser le HTML, créer une page .html suffit. Il faut seulement un logiciel avec lequel on peut lire et modifier le code.</p>
+        <p>Tel que : 
+          <ul>
+           <li>Sublime Text</li>
+            <li>Notepad</li>
+          </ul>
+        </p>
+      </div>
     </div>
   </div> 
   <div class="main_menu">
@@ -171,10 +174,7 @@
           <img src="../view/HTML_page_base.PNG">
           <div class="text_information">
             <p>On peut distinguer quatre composants principaux dans un code HTML : </p>
-            <p>le <font color="red">"DOCTYPE" (< !Doctype html >)</font> sert à indiquer au navigateur quelles règles d'écriture obéit le code de la page HTML.</p>
-            <p>Ensuite on commence à créer la page en indiquant au navigateur quand elle débute avec <font color="red">< html ></font> et quand elle finit avec </ html >.</p>
-            <p>Puis vient le head. Entre le <font color="red">< head ></font> et le <font color="red"></ head ></font> on appelle tout les liens dont la page aura besoin pour fonctionner. Cette partie du code est invisible à l'utilisateur.</p>
-            <p>Et enfin on a le <font color="red">< body ></ body ></font>. C'est entre ces deux balises que l'on va créer la partie visible de la page. C'est la que tout les composants, les images, les vidéos et autres objets deveront être placés.</p>
+            <p>le <font color="red">"DOCTYPE" (< !Doctype html >)</font> sert à indiquer au navigateur quelles règles d'écriture obéit le code de la page HTML.<br>Ensuite on commence à créer la page en indiquant au navigateur quand elle débute avec <font color="red" face="verdana">< html ></font> et quand elle finit avec </ html >.<br>Puis vient le head. Entre le <font color="red" face="verdana">< head ></font> et le <font color="red"></ head ></font> on appelle tout les liens dont la page aura besoin pour fonctionner. Cette partie du code est invisible à l'utilisateur mais est très importante.<br>Et enfin on a le <font color="red" face="verdana">< body ></ body ></font>. C'est entre ces deux balises que l'on va créer la partie visible de la page. C'est la que tout les composants, les images, les vidéos et autres objets deveront être placés.</p>
           </div>
           <div class="video">
               <iframe width="480" height="270" src="https://www.powtoon.com/embed/dt8jfi7E5bq/" frameborder="0"></iframe>
@@ -184,36 +184,92 @@
           <div class="content_video_html_base">
           </div>
           <div class="text_information">
-            <div>
-              <p>Les "boites" qui constituent les pages en HTML sont appelées des <font color="red">div</font>.</p>
-              <p>il existe plusieurs types de balises avec des fonctionnements différents que l'on peut utiliser en les plaçant dans les <font color="red">div</font>.</p>
+              <p>Les "boites" qui constituent les pages en HTML sont appelées des <font color="red" face="verdana">div</font>.<br>il existe plusieurs types de balises avec des fonctionnements différents que l'on peut utiliser en les plaçant dans les <font color="red" face="verdana">div</font>.</p>
               <div>
-                <p>Nous avons par exemple la balise <font color="red">p</font> qui permet d'écrire du texte sur notre page.</p>
+                <p>Nous avons par exemple la balise <font color="red" face="verdana" >< p ></font> qui permet d'écrire du texte sur notre page.</p>
               </div>
-              <p>Ce sont sur ces balises qu'agit le code CSS. Mais pour cela il est important de "nommer" les Div. En effet naturellement rien ne permet à l'ordinateur de différencier une Div d'une autre. Ce ne sont que des boites présentent dans la page web. pour permettre à l'ordinateur d'appliquer tel ou tel changement sur une Div, nous lui ajoutons la balise "<font color="red">class=...</font>" : ça permet de donner un nom à la div.</p>
-              <p>Exemple : <font color="red">< div class="bonjour">< / div ></font>. </p>
-              <p>Il est possible d'appeler plusieurs Div "bonjour". A ce moment, on peut appliquer le même effets à plusieurs endroits d'une page. A noter qu'il existe également la balise "<font color="red">id</font>". Elle permet de mettre un indentifiant à une div. Elle permet, sur plusieurs div ayant une même class d'appliquer un changement qu'il y aura que pour celle-ci.</p>
-            </div>
+              <p>Ce sont sur ces balises qu'agit le code CSS. Mais pour cela il est important de "nommer" les Div. En effet naturellement rien ne permet à l'ordinateur de différencier une Div d'une autre. Ce ne sont que des boites présentent dans la page web. pour permettre à l'ordinateur d'appliquer tel ou tel changement sur une Div, nous lui ajoutons la balise "<font color="red">class=...</font>" : ça permet de donner un nom à la div.</br>Exemple : <font color="red" face="verdana">< div class="bonjour">< / div ></font>. <br>Il est possible d'appeler plusieurs Div "bonjour". A ce moment, on peut appliquer le même effets à plusieurs endroits d'une page. A noter qu'il existe également la balise "<font color="red" face="verdana">id</font>". Elle permet de mettre un indentifiant à une div. Elle permet, sur plusieurs div ayant une même class d'appliquer un changement qu'il y aura que pour celle-ci.</p>
           </div>
         </div>
       </div>
       <div class="main_menu">
-        <h3>La base d'une page html</h3>
-        <div class="text_information">
-          <p>En premier, une page Html doit être configurée dans sa partie <font color="red">Head</font>.</p>
-          <p>Déjà il faut indiquer quel <font color="red">charset</font> (qui permet de définir l'encodage des caractères utilisés dans la feuille de style)  le navigateur doit utiliser pour afficher la page. Sur cette page j'ai utilisé la ligne de code meta <font color="red">charset="UTF-8</font>".
-          Nous avons ensuite la balise "<font color="red">title</font>" qui permet de donner un nom à la page. On peut voir ce nom apparaitre dans l'onglet de la page.
-          Viens ensuite la balise "<font color="red">Link</font>"" qui permet de lier la page HTML à la page CSS. Ici la balise ressemble à ceci : <font color="red">link rel="stylesheet" href="../Css/style.css"</font></p>
-          <p>Il exite beaucoup de méta que l'on peut appeler dans une page HTML. Comme par exemple la méta pour appeler la librairie <font color="red">Bootstrap</font> avec le <font color="red">Link : link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"</font>.</p>
+        <div class="bloc_contenant_text">
+          <h3>La base d'une page html</h3>
+          <div class="text_information">
+            <p>En premier, une page Html doit être configurée dans sa partie <font color="red" face="verdana">Head</font>.</p>
+            <p>Déjà il faut indiquer quel <font color="red" face="verdana">charset</font> (qui permet de définir l'encodage des caractères utilisés dans la feuille de style)  le navigateur doit utiliser pour afficher la page. Sur cette page j'ai utilisé la ligne de code meta <font color="red" face="verdana">charset="UTF-8</font>".
+            Nous avons ensuite la balise "<font color="red">title</font>" qui permet de donner un nom à la page. On peut voir ce nom apparaitre dans l'onglet de la page.
+            Viens ensuite la balise "<font color="red" face="verdana">Link</font>"" qui permet de lier la page HTML à la page CSS. Ici la balise ressemble à ceci : <font color="red" face="verdana">link rel="stylesheet" href="../Css/style.css"</font></p>
+            <p>Il exite beaucoup de méta que l'on peut appeler dans une page HTML. Comme par exemple la méta pour appeler la librairie <font color="red" face="verdana">Bootstrap</font> avec le <font color="red">Link : </font><br> link rel="stylesheet" <br>href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" <br>integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"<br> crossorigin="anonymous".</p>
+          </div>
         </div>
-        <h3>Le corps d'une page HTML</h3>
-        <div class="text_information">
-          <p>Il existe beaucoup de méta permettant de créer une page web. Nous ne vérons ici que les principales en attendant l'avancé de ma formation</p>
-          <p>Les balises <font color="red">h1</font> à <font color="red">h6</font> sont des balises "titres" qui permettent à la fois de poser un type à la page (attention ceci est différent de la méta "title"</p>
-          <p>Afin de créer des listes, on utilise la méta <font color="red">ul</font>. Pour définir les éléments, on utilise <font color="red">li</font> ou <font color="red">ol</font>. La seule chose qui diffèrent entre les deux balises est seulement l'affichage de la liste. li affiche une liste marquée par des points, alors que ol affiche une liste marqué par des chiffres.</p>
-        </div>
-        <div></div>
       </div>
+      <div class="main_menu">
+        <div class="bloc_contenant_text">
+          <h3>Le corps d'une page HTML</h3>
+          <div class="text_information">
+            <div>
+              <p>Il existe beaucoup de méta permettant de créer une page web. Nous ne vérons ici que les principales en attendant l'avancé de ma formation</p>
+              <p>Les balises <font color="red" face="verdana">h1</font> à <font color="red" face="verdana">h6</font> sont des balises "titres" qui permettent à la fois de poser un type à la page (attention ceci est différent de la méta "title"</p>
+              <p>Voici des exemples : </p>
+              <h1>Un titre en H1</h1>
+              <h2>Un titre en h2</h2>
+              <h3>Un titre en h3</h3>
+              <p>A noter que normalement, il est conseillé de ne mettre qu'un seul h1 par page.</p>
+              <p>Afin de créer des listes, on utilise la méta <font color="red" face="verdana">ul</font>. Pour définir les éléments, on utilise <font color="red" face="verdana">li</font> ou <font color="red" face="verdana">ol</font>. La seule chose qui diffèrent entre les deux balises est seulement l'affichage de la liste. li affiche une liste marquée par des points, alors que ol affiche une liste marqué par des chiffres.</p>
+              <p>Un exemple de liste de course en ul : </p>
+              <ul>
+                <li>de la farine</li>
+                <li>des oeufs</li>
+                <li>du lait</li>
+                <li>du chocolat</li>
+              </ul>
+              <p>Un exemple d'une liste de choses à faire en ol : </p>
+              <ol>
+                <li>mettre 300gr de farine dans un bol</li>
+                <li>ajouter 4 oeufs</li>
+                <li>Ajouter 1/2L de lait</li>
+                <li>faite fondre le chocolat...</li>
+              </ol>
+            </div>
+            <div>
+              <p>En dehors des listes, il est également possible de créer des tableaux en HTML afin d'organiser ce que l'on présente sur une page. Pour cela, nous utilisons la balise <font color="red" face="verdana">< table ></font>. à l'intérieur de cette balise, nous devons entrer certaines valeurs. Comme un tableau est composé de colonne et de lignes nous devons les placer avec les balises <font color="red" face="verdana">< thead ></font> pour les colonnes et <font color="red" face="verdana">< tbody ></font> pour les lignes. On signale ensuite le début de chaque élément par <font color="red" face="verdana">< tr ></font>. Enfin, il faut entrer nos valeurs afin de remplir notre tableau, sinon il ne servirait à rien. Pour les colonnes, on renplit des balises <font color="red" face="verdana">< th ></font> et pour les lignes, on utilise des balises <font color="red" face="verdana">< td ></font>. On peut dire que, visuellement, ça ressemble à une liste dans une liste qui est elle même dans une grosse liste si vous voulez.</p>
+              <p>Voila ce que l'on obtiens : <br> 
+                <table> 
+                  <thead>  <!-- colonnes -->
+                    <tr>
+                        <th>Nom de l'animal</th>
+                        <th>Son age</th>
+                        <th>Sa robe</th>
+                        <th>Sa nourriture favorite</th>
+                    </tr>
+                  </thead>
+                  <tbody> <!-- lignes -->
+                    <tr>
+                        <td>Teddy</td>
+                        <td>5ans</td>
+                        <td>Brun avec tâches blanches</td>
+                        <td>Les carrotes</td>
+                    </tr>
+                    <tr>
+                        <td>Alice</td>
+                        <td>presque 3 ans</td>
+                        <td>grise</td>
+                        <td>les croquettes</td>
+                    </tr>
+                  </tbody>
+                </table><br>
+                Bient entendu, vu comme cela, ce tableau est vraiment moche... Mais il y aura moyen de le rendre plus agréable à l'oeil avec du CSS plus tard.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="main_menu">
+    <div class="bloc_contenant_text">
+      <p>Il est important de préciser que le HTML sans le CSS ne sert pas à grand chose. Certe on affiche des données et on est content. Mais si elles ne ressemble à rien, vous allez vite vous lassez. JE vous invite donc à aller voir la <a href="../secondary_link/CSS_page.html" text-decoration="none"color="red" face="verdana" >page sur le CSS</a> que j'ai écrite.</p>
+    </div>
   </div>
   <div class="source">
         <h3>Voici les sources sur lesquelles je me suis basée pour écrire cet article : </h3>
